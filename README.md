@@ -117,7 +117,7 @@ Now client listening messages from topic `<topic_name>`
 ```json
 {
   "method": "publish",
-  ...
+  "...": "...",
   "name": "<unique_name>"
 }
 ```
@@ -127,7 +127,7 @@ Now client listening messages from topic `<topic_name>`
 ```json
 {
   "method": "publish/subscribe",
-  ...
+  "...": "...",
   "name": "<unique_name>"
 }
 ```
