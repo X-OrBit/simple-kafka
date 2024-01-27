@@ -83,7 +83,7 @@ nc 127.0.0.1 27727
 ```
 
 Send connection message line:
-```
+```json
 {"method": "publish", "topic": "<topic_name>"}
 ```
 
@@ -102,7 +102,7 @@ nc 127.0.0.1 27727
 ```
 
 Send connection message line:
-```
+```json
 {"method": "subscribe", "topic": "<topic_name>"}
 ```
 
