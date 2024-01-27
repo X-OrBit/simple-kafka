@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  simple-kafka:
+    build: .
+    command: ./simple-kafka --address 0.0.0.0 --port 27727
+    ports:
+      - "27727:27727"

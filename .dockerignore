@@ -1,0 +1,21 @@
+# Rust build
+target
+Cargo.lock
+
+# VS Code settings
+**/.vscode
+
+# IDEA
+**/.idea
+
+# Tests
+tests
+
+# Git
+.git
+LICENSE
+.gitignore
+README.md
+
+# Misc
+.dockerignore
